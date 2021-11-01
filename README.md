@@ -35,10 +35,13 @@ Advantages:
 - The refactored script runs faster due to increased efficiency and logic.
 - The code is easier to read for future users as it generally has fewer steps.
 - Refactoring someone else's code can be a good way to learn the functionality and intent of the code.
+- Refactored code is easier to build on and easier to use in other scripts.
 
 Disadvantages:
 - Refactoring code can take time and energy to provide the same results as the original script, so depending on the length of the code or amount of data being analyzed, it may or may not be worth it.
+- You may reach a point where the code no longer has the desired results in all of the use cases, especially if the original author is not the one refactoring the code.
 
 ### How do these pros and cons apply to refactoring the original VBA script?
+- The refactored script runs almost 5x faster, so we are able to analyze more data, quicker.
+- The code is able to analyze any year's data and any amount of data, so Steve can add more recent data or older data and still use the provided code to run the analysis.
 - One short fall of the way this code is written is that this code relies on the data being sorted by date. Ideally this code would be written in a way that would allow us to find the starting and ending prices by looking at the earliest and latest date for each ticker and using those values so we were not dependent on the way the data is sorted.
-- 
