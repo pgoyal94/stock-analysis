@@ -32,10 +32,12 @@ Additionally, the refactored script includes the formatting code, which the orig
 
 ### Advantages and Disadvantages of Refactoring Code
 Advantages:
--
+- The refactored script runs faster due to increased efficiency and logic.
+- The code is easier to read for future users as it generally has fewer steps.
+- Refactoring someone else's code can be a good way to learn the functionality and intent of the code.
 
 Disadvantages:
--
+- Refactoring code can take time and energy to provide the same results as the original script, so depending on the length of the code or amount of data being analyzed, it may or may not be worth it.
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 - One short fall of the way this code is written is that this code relies on the data being sorted by date. Ideally this code would be written in a way that would allow us to find the starting and ending prices by looking at the earliest and latest date for each ticker and using those values so we were not dependent on the way the data is sorted.
