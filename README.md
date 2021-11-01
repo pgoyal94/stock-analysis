@@ -22,9 +22,9 @@ Suggestions to Steve's parents would also depend on how risk averse they are and
 The first thing I noticed about the code was how fast the refactored code was able to run as compared to the original script. In the refactored script, we run through the data and create and array (see code below) with the relevant information prior to printing it all out into the results table. Arrays tend to be more time efficient than loops. 
 
     '1b) Create three output arrays
-    Dim tickerVolumes(12) As Long
-    Dim tickerStartingPrices(12) As Single
-    Dim tickerEndingPrices(12) As Single
+    Dim tickerVolumes(NoOfTickers) As Long
+    Dim tickerStartingPrices(NoOfTickers) As Single
+    Dim tickerEndingPrices(NoOfTickers) As Single
 
 Additionally, the refactored script includes the formatting code, which the original script did not, so not only is the refactored code longer and include more steps, but it also runs faster.
 
