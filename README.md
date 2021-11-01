@@ -19,9 +19,22 @@ It appears as though $ENPH and $RUN stand out in the 2018 output as the two stoc
 Suggestions to Steve's parents would also depend on how risk averse they are and what they would like to see in terms of results from their investments. We see some stocks have smaller returns and losses (such as $AY and $TERP) and that may be a safer investment if they are looking to be careful with their investments. But if they decide they are looking to go all in on the green energy movement and want to be a part of the market movers, they may choose to go more high risk, high reward with stocks that swing more intensely (such as $ENPH, $SEDG, or even $DQ). Looking at overall market trends of the green energy space may be important as well. It may be in Steve's best interest to find other industries even - maybe other causes they care about - to truly help his parents diversify their investments. 
 
 ### Refactored Script vs. Original
+The first thing I noticed about the code was how fast the refactored code was able to run as compared to the original script. In the refactored script, we run through the data and create and array (see code below) with the relevant information prior to printing it all out into the results table. Arrays tend to be more time efficient than loops. 
+
+    '1b) Create three output arrays
+    Dim tickerVolumes(12) As Long
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
 
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring Code
+Advantages:
+-
+
+Disadvantages:
+-
 
 ### How do these pros and cons apply to refactoring the original VBA script?
+- One short fall of the way this code is written is that this code relies on the data being sorted by date. Ideally this code would be written in a way that would allow us to find the starting and ending prices by looking at the earliest and latest date for each ticker and using those values so we were not dependent on the way the data is sorted.
+- 
